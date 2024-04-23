@@ -106,6 +106,12 @@ ul .speech.active{
   cursor: pointer;
   padding: 13px 22px;
   border-radius: 30px;
+  background: #5372F0;
+}
+.buttons button.loading{
+  opacity: 0.7;
+  pointer-events: none;
+}
       footer {
     background-color: #333;
     color: white;
@@ -114,10 +120,4 @@ ul .speech.active{
     bottom: 0;
     width: 100%;
     text-align: center;
-}
-  background: #5372F0;
-}
-.buttons button.loading{
-  opacity: 0.7;
-  pointer-events: none;
 }
